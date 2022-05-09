@@ -1,0 +1,76 @@
+{
+  "submission_type": "individual",
+  "params": [
+    {
+      "name": "str_arg",
+      "from": "submitter",
+      "type": "text",
+      "default": "this is a string parameter"
+    },
+    {
+      "name": "py3_list_arg",
+      "from": "submitter",
+      "type": "object",
+      "default": [
+        "this",
+        "is",
+        "a",
+        "list",
+        "parameter"
+      ]
+    },
+    {
+      "name": "py2_list_arg",
+      "from": "submitter",
+      "type": "object",
+      "default": [
+        "python2",
+        "hinting",
+        "is",
+        "also",
+        "supported"
+      ]
+    },
+    {
+      "name": "int_arg",
+      "from": "submitter",
+      "type": "number",
+      "default": "100"
+    },
+    {
+      "name": "float_arg",
+      "from": "submitter",
+      "type": "number",
+      "default": "10.2553"
+    },
+    {
+      "name": "enumerated_arg",
+      "from": "submitter",
+      "type": "enum",
+      "enumerables": [
+        "yes",
+        "no",
+        "maybe so"
+      ],
+      "default": "yes"
+    },
+    {
+      "name": "dict_arg",
+      "from": "submitter",
+      "type": "object",
+      "default": {
+        "a": 1,
+        "b": 2,
+        "c": 3
+      }
+    },
+    {
+      "name": "inferred_str_arg",
+      "from": "submitter",
+      "type": "text",
+      "default": "it is also possible for papermill to infer parameter type"
+    }
+  ],
+  "component": "tosca",
+  "label": "PGE_NAME_PLACEHOLDER"
+}
