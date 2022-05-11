@@ -1,4 +1,4 @@
-FROM artifactory.jpl.nasa.gov:16001/gov/nasa/jpl/nisar/sds/pcm/nisar_ade_all:r1.7.4
+FROM localhost:5050/gov/nasa/jpl/nisar/sds/pcm/nisar_ade_all:r1.7.4
 
 ENV HOME=/home/jovyan \
     CONDA_DIR=/home/jovyan/.local/envs/isce
