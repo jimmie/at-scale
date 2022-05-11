@@ -72,5 +72,5 @@
     }
   ],
   "component": "tosca",
-  "label": "PGE_NAME_PLACEHOLDER"
+  "label": "PGE_at-scale-test"
 }
