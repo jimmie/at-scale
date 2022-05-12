@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # This will activate conda
-source ~/.bashrc
+source /home/jovyan/.bashrc

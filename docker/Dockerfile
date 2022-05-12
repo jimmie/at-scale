@@ -25,6 +25,6 @@ RUN $CONDA_DIR/bin/papermill $HOME/at-scale/docker/requirements.ipynb /tmp/requi
 
 WORKDIR $HOME
 
-ENTRYPOINT ["$HOME/at-scale/docker/entrypoint.sh"]
+ENTRYPOINT ["/home/jovyan/at-scale/docker/entrypoint.sh"]
 
 CMD ["/bin/bash", "--login"]
