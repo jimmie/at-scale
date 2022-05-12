@@ -4,7 +4,7 @@ ENV HOME=/home/jovyan \
     CONDA_DIR=/home/jovyan/.local/envs/isce
 
 USER root
-#RUN $CONDA_DIR/bin/conda install -y nb_conda_kernels
+
 RUN conda install -y nb_conda_kernels
 RUN echo "conda activate isce" >> ~/.bashrc
 RUN $CONDA_DIR/bin/pip install 'ipykernel<5.0.0'
